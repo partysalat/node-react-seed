@@ -1,0 +1,37 @@
+{
+  "name": "dutrinkst",
+  "version": "0.0.1",
+  "description": "JustKile and AstroBra presents: du trinkst!",
+  "main": "dutrinkst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^15.1.1",
+    "hapi-auto-routes": "^1.0.3",
+    "inert": "^4.0.2",
+    "jade": "^1.11.0",
+    "lodash": "^4.16.4",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "browser-sync": "^2.17.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-develop-server": "^0.5.2",
+    "ignore-loader": "^0.1.1",
+    "json-loader": "^0.5.4",
+    "mkdirp": "^0.5.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "webpack-stream": "^3.2.0"
+  }
+}
