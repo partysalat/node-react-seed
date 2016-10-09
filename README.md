@@ -21,4 +21,4 @@ Features:
 Things to do:
 - rename dutrinkst into sth more generic
 - add css compilation
-- 
+
