@@ -2,10 +2,10 @@
 my personal node react seed
 
 Technologies in use:
-server (nodejs): 
-- Hapi + some plugins
+- Hapi + some plugins, jade 
 - react, redux, redux-thunk, lodash
-
+For development:
+- gulp, webpack-stream
 
 How to start:
 ```
