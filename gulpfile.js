@@ -10,3 +10,13 @@ gulp.task("default", function (done) {
     done
   );
 });
+
+gulp.task("build",["_scripts"]);
+gulp.task("start", function (done) {
+  sequence(
+    '_clean',
+    '_scripts',
+    "_server",
+    done
+  );
+});

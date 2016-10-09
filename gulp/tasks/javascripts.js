@@ -10,6 +10,7 @@ var webpackRawConfig = require('./../../webpack.config.js');
 
 gulp.task('_scripts:watch', function (done) {
   let webpackConfig = _.assign({}, webpackRawConfig, {
+    devtool: 'source-map',
     output:{
       filename:"bundle.js"
     },
@@ -21,7 +22,7 @@ gulp.task('_scripts:watch', function (done) {
 gulp.task('_scripts:dev', function () {
   return compile(_.assign({}, webpackRawConfig, {
     output:{
-      filename:"dev-bundle.js"
+      filename:"dev-bundle.js",
     }
   }));
 });

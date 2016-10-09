@@ -1,5 +1,6 @@
 var manifest = require("./../../../target/rev-manifest.json");
-
-module.exports = function(request,reply){
-  reply.view("index",{bundleJs:`/internal/assets/${manifest.main}`});
+var _ = require("lodash");
+module.exports = function (request, reply) {
+  let bundleName = _.isArray(manifest.main)?_.first(manifest.main):manifest.main;
+  reply.view("index", {bundleJs: `/internal/assets/${bundleName}`});
 };
