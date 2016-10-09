@@ -4,6 +4,7 @@ my personal node react seed
 Technologies in use:
 - Hapi + some plugins, jade 
 - react, redux, redux-thunk, lodash
+
 For development:
 - gulp, webpack-stream
 
