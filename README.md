@@ -1,6 +1,11 @@
 # node-react-seed
 my personal node react seed
 
+Technologies in use:
+server (nodejs): 
+- Hapi + some plugins
+- 
+
 How to start:
 ```
 npm i
@@ -17,6 +22,7 @@ Features:
 - file watch and browser sync 
 - build production code
 - source maps
+- automated testing setup (unit browser/server, integration, functional, contract-driven testing)
 
 Things to do:
 - rename dutrinkst into sth more generic
